@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
                             <li><Link href="#about" className="block">About</Link></li>
                             <li><Link href="/services" className="block">Services</Link></li>
                             <li><Link href="#projects" className="block">Projects</Link></li>
-                            <li><Link href="/contact" className="block">Contact</Link></li>
+                            <li><Link href="#contact" className="block">Contact</Link></li>
                         </ul>
                     </nav>
                 </div>
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                 </div>
                 <div className='flex gap-7 lg:gap-[40px]'>
                     <Link href="#about">About</Link>
-                    <Link href="/">Contact</Link>
+                    <Link href="#socials">Socials</Link>
                 </div>
             </div>
         </div>

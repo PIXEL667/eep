@@ -11,7 +11,7 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
     if (!isOpen) return null;
 
     return (
-        <div id="contact" className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
             <div className="bg-white p-6 rounded-lg shadow-lg">
                 <h2 className="text-xl font-bold mb-4">Contact Us</h2>
                 <p>Here is the contact page content.</p>

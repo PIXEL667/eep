@@ -2,6 +2,7 @@
 import { styles } from "@/app/styles";
 import { FlipWords } from "../components/ui/flip-words";
 import { motion } from "framer-motion";
+import Button from "./ContactButton";
 
 const Hero = () => {
     const words = [
@@ -50,18 +51,14 @@ const Hero = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1.5, duration: 0.5 }}
                 >
-                    <motion.button 
-                        className="px-4 sm:px-6 py-2 sm:py-3 bg-[#915EFF] text-white rounded-full text-base sm:text-lg font-semibold hover:bg-[#fff] hover:text-black transition-colors duration-300"
-                        whileHover={{ scale: 1.1 }}
-                    >
-                        Get Started
-                    </motion.button>
-                    <motion.button 
-                        className="px-4 sm:px-6 py-2 sm:py-3 bg-white text-black rounded-full text-base sm:text-lg font-semibold hover:bg-[#915EFF] hover:text-white transition-colors duration-300"
-                        whileHover={{ scale: 1.1 }}
-                    >
-                        Contact Us
-                    </motion.button>
+                    <motion.button
+                className="px-4 sm:px-6 py-2 sm:py-3 bg-[#915EFF] text-white rounded-full text-base sm:text-lg font-semibold hover:bg-[#fff] hover:text-black transition-colors duration-300"
+                aria-label="Get Started"
+                whileHover={{ scale: 1.1 }}
+            >
+                Get Started
+            </motion.button>
+                    <Button />
                 </motion.div>
             </div>
         </section>
