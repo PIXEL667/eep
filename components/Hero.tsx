@@ -20,7 +20,7 @@ const Hero = () => {
         <section className="min-h-screen w-full flex items-start justify-center px-4 sm:px-6 lg:px-8 pt-20 sm:pt-32">
             <div className="text-center max-w-4xl mx-auto gap-4 flex flex-col justify-center items-center">
                 <motion.div 
-                    className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal text-[#915EFF]"
+                    className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-normal text-[#915EFF]"
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}

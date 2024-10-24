@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
 
     return (
         <div id="projects" className='text-white flex flex-col bg-transparent px-4 sm:px-6 md:px-10 lg:px-20'>
-            <h1 className="text-base font-bold mt-20 pb-10 text-[#915EFF] flex flex-col items-start">
+            <h1 className="text-base font-bold mt-20 pb-10 text-[#ffffff] flex flex-col items-start">
                 Our Work
                 <span className='text-4xl md:text-5xl lg:text-6xl'>Projects.</span>
             </h1>
