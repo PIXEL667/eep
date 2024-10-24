@@ -1,4 +1,6 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
+
 import Hero from "@/components/Hero";
 import IconLoop from "@/components/IconLoop";
 import Navbar from "@/components/Navbar";
@@ -17,6 +19,7 @@ export default function Home() {
         <IconLoop />
         <Projects /> 
         <Testimonials />
+        <Contact />
       </div>
     </div>
   );
