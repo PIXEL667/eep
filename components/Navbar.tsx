@@ -47,9 +47,9 @@ const Navbar: React.FC = () => {
                     </button>
                     <nav className="mt-8">
                         <ul className="space-y-4 text-3xl">
-                            <li><Link href="/about" className="block">About</Link></li>
+                            <li><Link href="#about" className="block">About</Link></li>
                             <li><Link href="/services" className="block">Services</Link></li>
-                            <li><Link href="/projects" className="block">Projects</Link></li>
+                            <li><Link href="#projects" className="block">Projects</Link></li>
                             <li><Link href="/contact" className="block">Contact</Link></li>
                         </ul>
                     </nav>
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
             <div className='hidden md:flex h-[80px] text-white gap-7 lg:gap-[90px] justify-center items-center px-10 text-lg font-medium border border-gray-400 rounded-full md:w-[600px] lg:w-[800px]'>
                 <div className='flex gap-7 lg:gap-[40px]'>
                     <Link href="/">Services</Link>
-                    <Link href="/">Projects</Link>
+                    <Link href="#projects">Projects</Link>
                 </div>
                 <div>
                     <Link href="/">

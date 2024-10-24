@@ -11,7 +11,7 @@ const About: React.FC = () => {
         visible: {
           opacity: 1,
           transition: {
-            staggerChildren: 0.5, // Increased delay between children animations
+            staggerChildren: 2.5, // Increased delay between children animations
           },
         },
       };
@@ -22,7 +22,7 @@ const About: React.FC = () => {
           opacity: 1,
           y: 0,
           transition: {
-            duration: 1.2, // Increased duration for smoother animation
+            duration: 2.2, // Increased duration for smoother animation
             ease: "easeOut",
           },
         },
@@ -37,13 +37,13 @@ const About: React.FC = () => {
             type: "spring",
             stiffness: 100,
             damping: 15,
-            duration: 1.2, // Increased duration for smoother animation
+            duration: 2.2, // Increased duration for smoother animation
           },
         },
       };
 
     return (
-        <section id='about' ref={ref} className="py-20 h-screen bg-transparent text-white">
+        <section id='about' ref={ref} className="py-20 mt-[-120px] bg-transparent text-white">
             <div className="container mx-auto px-4">
               <motion.div
                 variants={containerVariants}
@@ -53,7 +53,7 @@ const About: React.FC = () => {
               >
                 <motion.h1 
                   variants={titleVariants}
-                  className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500"
+                  className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-[#915EFF]"
                 >
                   ABOUT US
                 </motion.h1>

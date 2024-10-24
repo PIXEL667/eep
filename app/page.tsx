@@ -2,6 +2,8 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import IconLoop from "@/components/IconLoop";
 import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <Hero />
         <About />
         <IconLoop />
+        <Projects /> 
       </div>
     </div>
   );
